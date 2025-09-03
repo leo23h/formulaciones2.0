@@ -36,10 +36,10 @@
          </span>
       </div>
          <div class="card-form" [style]="{'border-color': formulacion.lineColor}">
-            @for (item2 of item.compuestos; track $index) {
-               <div class="row py-4 mx-5" [style]="{'border-bottom': '1px solid '+formulacion.lineColor+''}" >
+            @for (item2 of item.compuestos; let i = $index; track item2.nombre) {
+               <div class="row py-4 mx-5" [style]="{'border-bottom': item.compuestos.length - 1 !== i ? '1px solid '+formulacion.lineColor+'' : 'none'}" >
                   <div class="col-3">
-                     <span class="txt-tr-table-s ">{{item2.nombre}}</span>
+                     <span class="txt-tr-table-s ">{{item2.nombre}} {{i}} </span>
                   </div>
                   <div class="col-5">
                      <span class="txt-tr-table">{{item2.INCI}}</span>
