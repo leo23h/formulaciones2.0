@@ -1,0 +1,109 @@
+.line{
+    height: 30px;
+    background-color: #1DACFF;
+}
+
+.cont-img{
+    height: 527px;
+    background-size: cover;
+    border-bottom-left-radius: 30px ;
+    border-bottom-right-radius: 30px;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-circle-w{
+    background-color: #FFFFFF;
+    width: 111px;
+    height: 111px;
+    border-radius: 50%;
+}
+
+.txt-btn{
+    font-family: 'Roboto';
+    font-size: 48px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.arrow-ico{
+    width: 90px;
+}
+
+.title-prod{
+    font-family: 'Red Hat Display';
+    font-size: 67px;
+    letter-spacing: -2px;
+    color: #1C4359;
+    font-weight: 500;
+}
+
+.cont-detail{
+    padding: 0px 75px;
+}
+
+.logo-fehr-prod{
+    width: 425px;
+}
+
+.header-table{
+    padding: 0px 75px;
+    height: 126px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.txt-h-table{
+    font-family: 'Open Sans';
+    font-size: 39px;
+    font-weight: bold;
+    color: #1C4359;
+}
+
+.header-card{
+    height: 93px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-form{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    margin-bottom: 20px;
+}
+
+.txt-title-card{
+    font-family: 'Open Sans';
+    font-size: 39px;
+    font-weight: bold;
+    color: #1C4359;
+}
+
+.txt-tr-table-s{
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 37px;
+    letter-spacing: -2px;
+}
+
+.txt-tr-table{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 37px;
+    letter-spacing: -2px;
+}
+
+
+/* @media (min-width: 1400px) {
+    .cont-detail {
+        max-width: 1750px;
+    }
+} */

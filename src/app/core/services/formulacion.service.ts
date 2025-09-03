@@ -6,7 +6,7 @@ import { Injectable } from "@angular/core";
 export class FormulacionService {
   constructor() {}
 
-  obtenerFormulacion() {
+  obtenerFormulaciones() {
     return [
       {
         id: 1,
