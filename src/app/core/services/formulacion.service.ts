@@ -1,4 +1,5 @@
 import { Injectable } from "@angular/core";
+import { Formula } from "../../shared/models/formula.interface";
 
 @Injectable({
   providedIn: "root",
@@ -6,11 +7,18 @@ import { Injectable } from "@angular/core";
 export class FormulacionService {
   constructor() {}
 
-  obtenerFormulaciones() {
+  obtenerFormulaciones(): Formula[] {
     return [
       {
         id: 1,
         nombre: "CLEANER GEL",
+        image: "assets/home/home_cleaner.jpg",
+        imageColor: "253, 173, 153, 0.4",
+        color: "#FDAD99",
+        lineColor: "#F3A974",
+        headerTable: "#FFC9BC",
+        cardHeader: "#FDAD99",
+        imageHeader: "assets/Internas/cab_cleaner_gel.jpg",
         etapas: [
           {
             fase: "A",
@@ -110,6 +118,13 @@ export class FormulacionService {
       {
         id: 2,
         nombre: "SERUM SHINNING DAY",
+        image: "assets/home/home_serum_day.jpg",
+        imageColor: "228, 153, 253, 0.5",
+        color: "#E499FD",
+        lineColor: "#E499FD",
+        headerTable: "#E499FD",
+        cardHeader: "#E6B5F7",
+        imageHeader: "assets/Internas/cab_serum_day.jpg",
         etapas: [
           {
             fase: "A",
@@ -204,6 +219,13 @@ export class FormulacionService {
       {
         id: 3,
         nombre: "SERUM SHINNING TO SLEEP",
+        image: "assets/home/home_ready.jpg",
+        imageColor: "255, 177, 215, 0.61",
+        color: "#FFB1D7",
+        lineColor: "#FF8EC5",
+        headerTable: "#FF8EC5",
+        cardHeader: "#FFC5E1",
+        imageHeader: "assets/Internas/cab_serum_sleep.jpg",
         etapas: [
           {
             fase: "A",
@@ -292,6 +314,13 @@ export class FormulacionService {
       {
         id: 4,
         nombre: "MANGO BUDIN CARE",
+        image: "assets/home/home_mango_budin.jpg",
+        imageColor: "134, 150, 231, 0.62",
+        color: "#8696E7",
+        lineColor: "#8696E7",
+        headerTable: "#ABB9FF",
+        cardHeader: "#ABB9FF",
+        imageHeader: "assets/Internas/cab_mango_budin.jpg",
         etapas: [
           {
             fase: "A",
@@ -379,6 +408,13 @@ export class FormulacionService {
       {
         id: 5,
         nombre: "COCO MOUSE BODY",
+        image: "assets/home/home_coco.jpg",
+        imageColor: "60, 221, 242, 0.4",
+        color: "#2BA9ED",
+        lineColor: "#0EA9FC",
+        headerTable: "#0EA9FC",
+        cardHeader: "#94D6F9",
+        imageHeader: "assets/Internas/cab_coco_mouse.jpg",
         etapas: [
           {
             fase: "A",
@@ -532,6 +568,13 @@ export class FormulacionService {
       {
         id: 6,
         nombre: "2 IN 1 HONEY PLEX SHAMPOO",
+        image: "assets/home/home_2in1_honey.jpg",
+        imageColor: "92, 217, 177, 0.4",
+        color: "#5CD9B1",
+        lineColor: "#5CD9B1",
+        headerTable: "#5CD9B1",
+        cardHeader: "#A7F7DE",
+        imageHeader: "assets/Internas/cab_2in1_honey.jpg",
         etapas: [
           {
             fase: "A",
@@ -631,7 +674,14 @@ export class FormulacionService {
       },
       {
         id: 7,
-        nombre: "2 IN 1 HONEY PLEX SHAMPOO",
+        nombre: "2 IN 1 NUTRI CARE OIL",
+        image: "assets/home/home_nutri.jpg",
+        imageColor: "60, 221, 242, 0.4",
+        color: "#3CDDF2",
+        lineColor: "#3CDDF2",
+        headerTable: "#3CDDF2",
+        cardHeader: "#9EF4FF",
+        imageHeader: "assets/Internas/cab_nutri_care_oil.jpg",
         etapas: [
           {
             fase: "A",
@@ -731,6 +781,13 @@ export class FormulacionService {
       {
         id: 8,
         nombre: "MILKSHAKE HAIR TREATMENT",
+        image: "assets/home/home_coco.jpg",
+        imageColor: "59, 252, 243, 0.4",
+        color: "#3BFCF3",
+        lineColor: "#3CDDF2",
+        headerTable: "#3BFCF3",
+        cardHeader: "#4EEBE3", 
+        imageHeader: "assets/Internas/cab_hairtra.jpg",
         etapas: [
           {
             fase: "A",
