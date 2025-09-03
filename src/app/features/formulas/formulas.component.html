@@ -1,19 +1,19 @@
 <div class="line"></div>
 <div class="container">
-   <div class="row py-5 mt-5">
+   <div class="row py-4 py-md-3 py-lg-3 py-xl-5 mt-md-3 mt-lg-5 ">
       <div class="col-8"><span class="title">Formulaciones <span class="title-bold">2025</span></span></div>
       <div class="col-4 text-end">
         <img class="logo" src="assets/logo.jpg" alt="logo_fehrmann">
       </div>
    </div>
-   <div class="row pt-5">
+   <div class="row pt-3 pt-md-5">
        @for (item of listaFormulaciones; track $index) {
-        <div class="col-6 pe-3 pb-4">
+        <div class="col-12 col-md-6 px-4 px-md-0 pe-md-3 pb-4">
             <a class="lnk-card" [routerLink]="['detail', item.id]">
-                <div class="row card-form" [style]="{'background-image': 'url('+item.image+')', 'background-color': 'rgb('+item.imageColor+')' }">
+                <div class="row card-form ms-2 ms-md-0" [style]="{'background-image': 'url('+item.image+')', 'background-color': 'rgb('+item.imageColor+')' }">
                     <div class="card-footer" [style]="{'background-color': item.color}">
-                       <div class="row">
-                           <div class="col-9 text-center px-5">
+                       <div class="row align-items-center">
+                           <div class="col-9 text-center px-3 px-md-3 px-lg-5">
                                <span class="title-card">{{item.nombre}}</span>
                            </div>
                            <div class="col-3 text-center">

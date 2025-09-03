@@ -20,8 +20,7 @@ export class FormulasComponent implements OnInit{
   }
 
   listarFormulas(){
-   this.listaFormulaciones = this.formulacionService.obtenerFormulaciones()
-    console.log("lista de formulas", this.listaFormulaciones);
+   this.listaFormulaciones = this.formulacionService.obtenerFormulaciones();
   }   
 
 

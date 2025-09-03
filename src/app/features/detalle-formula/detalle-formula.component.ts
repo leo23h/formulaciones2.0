@@ -25,7 +25,6 @@ export class DetalleFormulaComponent implements OnInit {
   obtenerFormulaPorId(id: number){
     const listadoFormulaciones = this.formulacionService.obtenerFormulaciones();
     this.formulacion = listadoFormulaciones.find(i => i.id == id)!;
-    console.log("formulacion", this.formulacion)
 
   }
 
