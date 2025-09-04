@@ -101,9 +101,265 @@
     letter-spacing: -2px;
 }
 
+/* Styles for screens smaller than 768px */
+@media (max-width: 767px) {
 
-/* @media (min-width: 1400px) {
-    .cont-detail {
-        max-width: 1750px;
+    .cont-img{
+        height: 120px;
+        border-radius: 0px;
     }
-} */
+
+    .cont-detail{
+        padding: 0px 25px;
+    }
+
+    .logo-fehr-prod{
+        width: 100px;
+        height: auto;
+    }
+
+    .title-prod{
+        font-size: 25px;
+        letter-spacing: -1px;
+    }
+
+    .btn-circle-w{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .txt-btn{
+        font-size: 20px;
+    }
+    
+    .arrow-ico{
+        width: 25px;
+    }
+
+    .header-table{
+        height: 50px;
+        padding: 0px 25px;
+        width: 500px;
+        max-width: max-content;
+        overflow-x: scroll;
+    }
+
+    .txt-h-table{
+        font-size: 15px;
+    }
+
+    .header-card{
+        height: 50px;
+    }
+
+    .txt-title-card{
+        font-size: 20px;
+    }
+
+    .txt-tr-table-s{
+        font-size: 15px;
+        letter-spacing: -1px;
+    }
+
+    .txt-tr-table{
+        font-size: 15px;
+        letter-spacing: -1px;
+    }
+}
+
+/* Styles for screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .cont-img{
+        height: 120px;
+        border-radius: 0px;
+    }
+
+    .cont-detail{
+        padding: 0px 25px;
+    }
+
+    .logo-fehr-prod{
+        width: 150px;
+        height: auto;
+    }
+
+    .title-prod{
+        font-size: 25px;
+        letter-spacing: -1px;
+    }
+
+    .btn-circle-w{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .txt-btn{
+        font-size: 20px;
+    }
+    
+    .arrow-ico{
+        width: 25px;
+    }
+
+    .header-table{
+        height: 50px;
+        padding: 0px 25px;
+        width: 87%;
+        /* max-width: max-content; */
+        overflow-x: scroll;
+    }
+
+    .txt-h-table{
+        font-size: 15px;
+    }
+
+    .header-card{
+        height: 50px;
+    }
+
+    .txt-title-card{
+        font-size: 17px;
+    }
+
+    .txt-tr-table-s{
+        font-size: 15px;
+        letter-spacing: -1px;
+    }
+
+    .txt-tr-table{
+        font-size: 15px;
+        letter-spacing: -1px;
+    }
+}
+
+/* Styles for screens 1024px and larger */
+@media (min-width: 1024px) {
+    .cont-img{
+        height: 120px;
+        border-radius: 0px;
+    }
+
+    .cont-detail{
+        padding: 0px 25px;
+    }
+
+    .logo-fehr-prod{
+        width: 150px;
+        height: auto;
+    }
+
+    .title-prod{
+        font-size: 25px;
+        letter-spacing: -1px;
+    }
+
+    .btn-circle-w{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .txt-btn{
+        font-size: 20px;
+    }
+    
+    .arrow-ico{
+        width: 25px;
+    }
+
+    .header-table{
+        height: 50px;
+        padding: 0px 25px;
+        width: 91%;
+        /* max-width: max-content; */
+        overflow-x: scroll;
+    }
+
+    .txt-h-table{
+        font-size: 15px;
+    }
+
+    .header-card{
+        height: 50px;
+    }
+
+    .txt-title-card{
+        font-size: 17px;
+    }
+
+    .txt-tr-table-s{
+        font-size: 15px;
+        letter-spacing: -1px;
+    }
+
+    .txt-tr-table{
+        font-size: 15px;
+        letter-spacing: -1px;
+    }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .cont-img{
+    height: 200px;
+    border-radius: 0px;
+}
+
+  
+}
+
+@media (min-width: 2200px) {
+    .cont-img{
+        height: 527px;
+    }
+
+    .btn-circle-w{
+        width: 111px;
+        height: 111px;
+    }
+
+    .txt-btn{
+        font-size: 48px;
+    }
+
+    .arrow-ico{
+        width: 90px;
+    }
+
+    .title-prod{
+        font-size: 67px;
+        letter-spacing: -2px;
+    }
+
+    .logo-fehr-prod{
+        width: 425px;
+    }
+
+    .header-table{
+        height: 126px;
+        width: 96%;
+    }
+
+    .txt-h-table{
+        font-size: 39px;
+    }
+
+    .header-card{
+        height: 93px;
+    }
+    
+    .txt-title-card{
+        font-size: 39px;
+    }
+    
+    .txt-tr-table-s{
+        font-size: 37px;
+    }
+    
+    .txt-tr-table{
+        font-size: 37px;
+        letter-spacing: -2px;
+    }
+}
