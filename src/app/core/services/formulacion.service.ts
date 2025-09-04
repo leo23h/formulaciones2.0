@@ -30,19 +30,19 @@ export class FormulacionService {
                 fabricante: "",
               },
               {
-                nombre: "Carbopol Fusion s-20",
+                nombre: "Carbopol® Fusion S-20 Polymer",
                 INCI: "Starch Acetate/Adipate (and) Citric Acid",
                 uso: "14.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Lauroat",
+                nombre: "Lauroat® EC ",
                 INCI: "Sodium Lauroyl Oat Amino Acids",
                 uso: "15.00",
                 fabricante: "Sinerga",
               },
               {
-                nombre: "Salsphere Even Skin",
+                nombre: "SalSphere® Even Skin",
                 INCI: "PEG-8, Salicylic Acid, Isostearamidopropyl Ethyldimonium Ethosulfate, Sodium Hydroxide, Isostearamidopropyl Dimethylamine, Isostearic Acid, Propylene Glycol, Water/Aqua/Eau, Carthamus Tinctorius (Safflower) Seed Oil, Olea Europaea (Olive) Fruit Oil",
                 uso: "3.00",
                 fabricante: "Salvona",
@@ -59,13 +59,13 @@ export class FormulacionService {
             fase: "B",
             compuestos: [
               {
-                nombre: "Hydramol PGPL",
+                nombre: "Hydramol™ PGPL Ester",
                 INCI: "PEG/PPG-8/3 Laurate",
                 uso: "3.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Meqruat 3330 pr",
+                nombre: "Merquat™ 3330PR polymer",
                 INCI: "Polyquaternium-39",
                 uso: "4.00",
                 fabricante: "Lubrizol",
@@ -76,19 +76,19 @@ export class FormulacionService {
             fase: "C",
             compuestos: [
               {
-                nombre: "Oleobiota",
+                nombre: "Oleobiota™",
                 INCI: "Water, Glycerin, Eugenia uniflora leaf extract",
                 uso: "2.00",
                 fabricante: "Evonik",
               },
               {
-                nombre: "Novascrub arroz",
+                nombre: " Novascrub™ Arroz",
                 INCI: "Oryzaba Sativa Powder, Actinidia Chinensis Fruit Extract",
                 uso: "1.00",
                 fabricante: "Novachem",
               },
               {
-                nombre: "Euxyl Eco910",
+                nombre: "euxyl™ eco 910 ",
                 INCI: "Benzyl Alcohol (and) Cymbopogon Flexuosus Leaf Oil (and) Tocopherol",
                 uso: "1.00",
                 fabricante: "Ashland",
@@ -132,7 +132,7 @@ export class FormulacionService {
               {
                 nombre: "Agua",
                 INCI: "Water",
-                uso: "79.00",
+                uso: "79.13",
                 fabricante: "",
               },
               {
@@ -142,25 +142,25 @@ export class FormulacionService {
                 fabricante: "Activon",
               },
               {
-                nombre: "Alantoina",
+                nombre: "Alantoína",
                 INCI: "Alantoine",
                 uso: "0.30",
                 fabricante: "Deretil",
               },
               {
-                nombre: "Carbopol Ultrez 30",
+                nombre: "Carbopol® Ultrez 30 polymer,",
                 INCI: "Carbomer",
                 uso: "0.45",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Sensiva SC 83",
+                nombre: "Sensiva™ sc 83 multifunctional",
                 INCI: "Caprylhydroxamic acid, caprylyl glycol, propanediol",
                 uso: "1.00",
                 fabricante: "Ashland",
               },
               {
-                nombre: "Hydramol PGPL",
+                nombre: "Hydramol™ PGPL Ester,",
                 INCI: "PEG/PPG-8/3 Laurate",
                 uso: "3.00",
                 fabricante: "Lubrizol",
@@ -172,19 +172,19 @@ export class FormulacionService {
                 fabricante: "Lipomize",
               },
               {
-                nombre: "Red Alga Gel EC",
+                nombre: "Red Alga Gel ® EC",
                 INCI: "Ahnfeltiopsis concinna Extract",
                 uso: "5.00",
                 fabricante: "Sinerga",
               },
               {
-                nombre: "Azeloglicina",
+                nombre: "Azeloglicina®",
                 INCI: "Potassium Azeloyl Diglycinate",
                 uso: "3.00",
                 fabricante: "Sinerga",
               },
               {
-                nombre: "Hydraskin",
+                nombre: "Hydraskin™",
                 INCI: "Saccharomyces lysate filtrate",
                 uso: "2.00",
                 fabricante: "Novachem",
@@ -218,7 +218,7 @@ export class FormulacionService {
       },
       {
         id: 3,
-        nombre: "SERUM SHINNING TO SLEEP",
+        nombre: "SERUM READY TO SLEEP",
         image: "assets/home/home_ready.jpg",
         imageColor: "255, 177, 215, 0.61",
         color: "#FFB1D7",
@@ -233,7 +233,7 @@ export class FormulacionService {
               {
                 nombre: "Agua",
                 INCI: "Water",
-                uso: "83.09",
+                uso: "83.9",
                 fabricante: "",
               },
               {
@@ -243,31 +243,31 @@ export class FormulacionService {
                 fabricante: "Activon",
               },
               {
-                nombre: "Alantoina",
+                nombre: "Alantoína",
                 INCI: "Alantoine",
-                uso: "0.30",
+                uso: "0.3",
                 fabricante: "Deretil",
               },
               {
-                nombre: "Carbopol Ultrez 30",
+                nombre: "Carbopol® Ultrez 30 polymer",
                 INCI: "Carbomer",
-                uso: "0.60",
+                uso: "0.6",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Sensiva SC 83",
+                nombre: "sensiva™ sc 83 multifunctional",
                 INCI: "Caprylhydroxamic acid, caprylyl glycol, propanediol",
-                uso: "0.30",
+                uso: "0.3",
                 fabricante: "Ashland",
               },
               {
-                nombre: "Hydramol PGPL",
+                nombre: "Hydramol™ PGPL Ester",
                 INCI: "PEG/PPG-8/3 Laurate",
                 uso: "3.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Azeloglicina",
+                nombre: "Azeloglicina®",
                 INCI: "Citrus Aurantium Sinensis Peel Extract, Citrus Reticulata Peel Extract",
                 uso: "3.00",
                 fabricante: "Sinerga",
@@ -298,13 +298,13 @@ export class FormulacionService {
               {
                 nombre: "Tween 80",
                 INCI: "",
-                uso: "0.70",
+                uso: "0.7",
                 fabricante: "Lubrizol",
               },
               {
                 nombre: "Jennifer Lawrence",
                 INCI: "Parfum",
-                uso: "0.30",
+                uso: "0.3",
                 fabricante: "Firmenich",
               },
             ],
@@ -344,7 +344,7 @@ export class FormulacionService {
                 fabricante: "Activon",
               },
               {
-                nombre: "Novemer CS",
+                nombre: "Novemer™ CS Polymer",
                 INCI: "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
                 uso: "1.50",
                 fabricante: "Lubrizol",
@@ -355,25 +355,25 @@ export class FormulacionService {
             fase: "B",
             compuestos: [
               {
-                nombre: "Schercemol 318 Ester",
+                nombre: "Schercemol™ 318 Ester",
                 INCI: "Diisopropyl Adipate",
                 uso: "8.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Schercemol 1818 Ester",
+                nombre: "Schercemol™ 318 Ester",
                 INCI: "Isostearyl Isostearate",
                 uso: "3.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Schercemol NGDO",
+                nombre: "Schercemol™ NGDO  Ester",
                 INCI: "Neopentyl Glycol Diheptanoate",
                 uso: "4.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Algapure",
+                nombre: "AlgaPūr™ HSHO algae oil",
                 INCI: "Schizochytrium Sp. Oil (nombre INCI del aceite de algas DHA)",
                 uso: "2.00",
                 fabricante: "Lubrizol",
@@ -390,7 +390,7 @@ export class FormulacionService {
                 fabricante: "Lipomize",
               },
               {
-                nombre: "Euxyl k830",
+                nombre: "Euxyl™ k 830",
                 INCI: "Ethylhexylglycerin (and) Phenylpropanol",
                 uso: "0.50",
                 fabricante: "Ashland",
@@ -420,31 +420,31 @@ export class FormulacionService {
             fase: "A",
             compuestos: [
               {
-                nombre: "Agua desionizada",
+                nombre: "Aqua",
                 INCI: "Water",
                 uso: "65.00",
                 fabricante: "",
               },
               {
-                nombre: "Euxyl K900",
+                nombre: "Euxyl™ k 900",
                 INCI: "Benzyl Alcohol/ Ethylhexylglycerin",
                 uso: "1.00",
                 fabricante: "Ashland",
               },
               {
-                nombre: "Activonol",
+                nombre: "Activonol-3",
                 INCI: "Propanediol",
                 uso: "3.00",
                 fabricante: "Activon",
               },
               {
-                nombre: "Novemer CS",
+                nombre: "Novemer™ CS Polymer",
                 INCI: "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
-                uso: "",
+                uso: "1.50",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Dpanthenol",
+                nombre: "D-panthenol",
                 INCI: "D-panthenol",
                 uso: "1.00",
                 fabricante: "Xinfu",
@@ -455,7 +455,7 @@ export class FormulacionService {
             fase: "B",
             compuestos: [
               {
-                nombre: "Phytocream 2000",
+                nombre: "Phytocream®2000 ",
                 INCI: "Potassium Palmitoyl Hydrolyzed Wheat Protein, Glyceryl Stearate, Cetearyl Alcohol.",
                 uso: "7.00",
                 fabricante: "Sinerga",
@@ -479,19 +479,19 @@ export class FormulacionService {
                 fabricante: "Koster Keunen",
               },
               {
-                nombre: "Schercemol 1818",
+                nombre: "Schercemol™ 318 Ester",
                 INCI: "Isostearyl Isostearate",
-                uso: "",
+                uso: "3.0",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Schercemol DISM",
+                nombre: "Schercemol™ DISM Ester,",
                 INCI: "Diisostearyl Malate",
                 uso: "2.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Schercemol NGDO",
+                nombre: "Schercemol™ NGDO Ester",
                 INCI: "Neopentyl Glycol Diethylhexanoate",
                 uso: "2.00",
                 fabricante: "Lubrizol",
@@ -508,37 +508,37 @@ export class FormulacionService {
                 fabricante: "Stantfold",
               },
               {
-                nombre: "Silsense bio 5",
+                nombre: "SilSense™ Bio 5 emollient,",
                 INCI: "C9-12 Alkane",
                 uso: "2.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Algapur HSHO",
+                nombre: "AlgaPūr™ HSHO algae oil",
                 INCI: "Triolein / Alga oil",
                 uso: "2.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Azeloglicina",
+                nombre: "Azeloglicina®",
                 INCI: "Potassium Azeloyl Diglycinate",
                 uso: "3.00",
                 fabricante: "Sinerga",
               },
               {
-                nombre: "Oleobiota",
+                nombre: "Oleobiota™",
                 INCI: "Water (and) Glycerin (and) Eugenia Uniflora Leaf Extract",
                 uso: "2.00",
                 fabricante: "Evonik",
               },
               {
-                nombre: "Red alga Gel EC",
+                nombre: "Red Alga Gel ® EC",
                 INCI: "Ahnfeltiopsis concinna Extract",
                 uso: "2.00",
                 fabricante: "Sinerga",
               },
               {
-                nombre: "Cosmethicone 6061 Elastomer",
+                nombre: "Cosmethicone® 6061 Elastomer",
                 INCI: "Silica, dimethicone, vinyl dimethicone crosspolymer",
                 uso: "3.00",
                 fabricante: "Biomax",
@@ -580,25 +580,25 @@ export class FormulacionService {
             fase: "A",
             compuestos: [
               {
-                nombre: "Agua desionizada",
+                nombre: "Aqua",
                 INCI: "Water",
-                uso: "58.00",
+                uso: "35.50",
                 fabricante: "",
               },
               {
-                nombre: "Carbopol Fusion",
+                nombre: "Carbopol® Fusion S-20 Polymer",
                 INCI: "Starch Acetate/Adipate (and) Citric Acid",
-                uso: "14.00",
+                uso: "15.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Vegequat",
+                nombre: "VEGEQUAT®",
                 INCI: "Cocodimonium Hydroxypropyl Hydrolyzed Wheat Protein",
-                uso: "15.00",
+                uso: "2.5",
                 fabricante: "Sinerga",
               },
               {
-                nombre: "Lauroat",
+                nombre: "Lauroat® EC",
                 INCI: "Sodium Lauroyl Oat Amino Acids",
                 uso: "",
                 fabricante: "Sinerga",
@@ -606,13 +606,13 @@ export class FormulacionService {
               {
                 nombre: "Natifoam",
                 INCI: "Cocoyl Proline, Caprylyl/Capryl Glucoside, Sodium Cocoyl Isethionate",
-                uso: "15.00",
+                uso: "6.00",
                 fabricante: "Sinerga",
               },
               {
-                nombre: "Glucamate LT",
+                nombre: "Glucamate™ LT thickener",
                 INCI: "PEG-120 Methyl Glucose Trioleate, Propylene Glycol (and) Water",
-                uso: "",
+                uso: "2.20",
                 fabricante: "Lubrizol",
               }
             ],
@@ -621,45 +621,45 @@ export class FormulacionService {
             fase: "B",
             compuestos: [
               {
-                nombre: "Extracell plex",
+                nombre: "Extracell™ Plex",
                 INCI: "Saccharomyces lysate",
                 uso: "3.00",
                 fabricante: "Novachem",
               },
               {
-                nombre: "Royal Elixir",
+                nombre: " Royal Elixir™",
                 INCI: "Water, Glycerin, Royal Jelly Extract.",
-                uso: "4.00",
+                uso: "3.00",
                 fabricante: "Novachem",
               },
               {
-                nombre: "Merquat 3330",
+                nombre: "Merquat™ PLUS 3330 Polymer",
                 INCI: "Polyquaternium-39",
-                uso: "4.00",
+                uso: "1.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Merquat 2003",
+                nombre: "Merquat™ 2003 Polymer",
                 INCI: " Polyquaternium-53",
-                uso: "4.00",
+                uso: "1.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Merquat 295",
+                nombre: "Merquat™ 295 Polymer",
                 INCI: "Polyquaternium-22",
-                uso: "3.00",
+                uso: "1.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Euxyl k900",
+                nombre: "Euxyl™ k 900",
                 INCI: "Benzyl Alcohol/ Ethylhexylglycerin",
-                uso: "4.00",
+                uso: "0.50",
                 fabricante: "Ashland",
               },
               {
                 nombre: "Hidroxido de Sodio 20%",
                 INCI: "",
-                uso: "4.00",
+                uso: "q.s",
                 fabricante: "",
               },
               {
@@ -687,31 +687,31 @@ export class FormulacionService {
             fase: "A",
             compuestos: [
               {
-                nombre: "Algapur HSHO",
+                nombre: "AlgaPūr™ HSHO algae oil",
                 INCI: "Triolein / Alga oil",
                 uso: "25.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Schercemol LL",
+                nombre: "Schercemol™ LL Ester",
                 INCI: "Lauryl Lactate",
                 uso: "20.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Schercemol NGDO",
+                nombre: "Schercemol™ NGDO  Ester",
                 INCI: "Neopentyl Glycol Diethylhexanoate",
                 uso: "15.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Schecemol CO",
+                nombre: "Schercemol™ CO Ester",
                 INCI: "Cetyl Ethyhexanoate",
                 uso: "20.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Oilkemia 5S Polymer",
+                nombre: "Oilkemia™ 5S polymer",
                 INCI: "Caprylic/Capric Triglyceride (and) Polyurethane-79",
                 uso: "1.20",
                 fabricante: "Lubrizol",
@@ -722,13 +722,13 @@ export class FormulacionService {
             fase: "B",
             compuestos: [
               {
-                nombre: "HA+-OIL",
+                nombre: "HA-OIL",
                 INCI: "Ricinus communis seed oil, sorbitan olivate, sodium hyaluronate, caproic acid",
                 uso: "1.50",
                 fabricante: "Contipro",
               },
               {
-                nombre: "Novaoil coco",
+                nombre: "Novaoil™ Coco",
                 INCI: "Ahnfeltiopsis concinna Extract",
                 uso: "5.00",
                 fabricante: "Novachem",
@@ -746,7 +746,7 @@ export class FormulacionService {
                 fabricante: "Stanfold",
               },
               {
-                nombre: "HEMP OIL REFINED",
+                nombre: "Hemp Oil Refined",
                 INCI: "Cannabis Sativa (Seed Oil)",
                 uso: "1.50",
                 fabricante: "Stanfold",
@@ -757,7 +757,7 @@ export class FormulacionService {
             fase: "C",
             compuestos: [
               {
-                nombre: "NATUROLIVE OA",
+                nombre: "NaturOlive OA",
                 INCI: "Olea europaea leaf extract  oleanolic acid",
                 uso: "0.30",
                 fabricante: "Deretil",
@@ -770,7 +770,7 @@ export class FormulacionService {
               {
                 nombre: "Caramelized Caju",
                 INCI: "Parfum",
-                uso: "0.50",
+                uso: "0.5",
                 fabricante: "Firmenich",
               }
             ]
@@ -795,13 +795,19 @@ export class FormulacionService {
               {
                 nombre: "Agua",
                 INCI: "Water",
-                uso: "53.20",
+                uso: "53.2",
                 fabricante: "",
               },
               {
-                nombre: "Activonol",
+                nombre: "Activonol-3",
                 INCI: "Disodium EDTA",
                 uso: "0.50",
+                fabricante: "",
+              },
+              {
+                nombre: "EDTA",
+                INCI: "Disodium EDTA",
+                uso: "0.5",
                 fabricante: "",
               }
             ],
@@ -812,19 +818,19 @@ export class FormulacionService {
               {
                 nombre: "Alcohol cetilico",
                 INCI: "Alcohol cetilico",
-                uso: "5.00",
+                uso: "5.0",
                 fabricante: "",
               },
               {
-                nombre: "Phytocreem 2000",
+                nombre: "Phytocream® 2000",
                 INCI: "Potassium Palmitoyl Hydrolyzed Wheat Protein, Glyceryl Stearate, Cetearyl Alcohol.",
-                uso: "10.00",
+                uso: "10.0",
                 fabricante: "Sinerga",
               },
               {
-                nombre: "Shea butter",
+                nombre: "Shea Butter",
                 INCI: "Butyrospermum Parkii (Shea Butter) Fruit",
-                uso: "2.00",
+                uso: "2.0",
                 fabricante: "Terry Labs",
               }
             ],
@@ -833,33 +839,33 @@ export class FormulacionService {
             fase: "C",
             compuestos: [
               {
-                nombre: "Capilmax",
+                nombre: "Capilmax™",
                 INCI: "Water (Aqua), Propylene glycol, Alcohol, Sodium PCA, Sodium Lactate, Arginine, Aspartic Acid, Pca, G",
-                uso: "5.00",
+                uso: "5.0",
                 fabricante: "Novachem",
               },
               {
-                nombre: "Capilacid",
+                nombre: "CapilAcid™",
                 INCI: "Water, Glycerin, Aristotelia Chilensis Fruit Extract",
-                uso: "5.00",
-                fabricante: "Evonick",
+                uso: "5.0",
+                fabricante: "Evonik",
               },
               {
-                nombre: "Extracell plex",
+                nombre: "Extracell™ Plex",
                 INCI: "Saccharomyces lysate",
-                uso: "5.00",
+                uso: "5.0",
                 fabricante: "Novachem",
               },
               {
                 nombre: "Hair App",
                 INCI: "Lysine Carboxymethyl Cysteinate",
-                uso: "3.00",
+                uso: "3.0",
                 fabricante: "Sinerga",
               },
               {
-                nombre: "Merquart 550 PR",
+                nombre: " Merquat™ 500PR Polymer",
                 INCI: "POLICUATERNIUM 7",
-                uso: "0.30",
+                uso: "0.3",
                 fabricante: "Lubrizol",
               }
             ]
@@ -868,21 +874,21 @@ export class FormulacionService {
             fase: "D",
             compuestos: [
               {
-                nombre: "Schercemol NGDO",
+                nombre: "Schercemol™ NGDO Ester",
                 INCI: "Neopentyl Glycol Diethylhexanoate",
-                uso: "4.00",
+                uso: "4.0",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Cosmethicone SF-906",
+                nombre: "Cosmethicone® SF 906",
                 INCI: "Dimethicone",
-                uso: "4.00",
+                uso: "4.0",
                 fabricante: "Biomax",
               },
               {
-                nombre: "Cosmethicone 6061 Elastomer",
+                nombre: "Cosmethicone® 6061 Elastomer",
                 INCI: "Silica, dimethicone, vinyl dimethicone crosspolymer",
-                uso: "1.00",
+                uso: "1.0",
                 fabricante: "Biomax",
               }
             ]
@@ -891,15 +897,15 @@ export class FormulacionService {
             fase: "E",
             compuestos: [
               {
-                nombre: "Euxyl K -830",
+                nombre: "euxyl™ k 830",
                 INCI: "Phenoxyethanol, Ethylhexylglycerin, Octenidine HCl",
-                uso: "0.50",
+                uso: "0.5",
                 fabricante: "Ashland",
               },
               {
-                nombre: "granada milk shake",
+                nombre: "Granada milk shake",
                 INCI: "Perfum",
-                uso: "1.00",
+                uso: "1.0",
                 fabricante: "Firmenich",
               }
             ]
