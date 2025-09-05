@@ -390,7 +390,7 @@ export class FormulacionService {
                 fabricante: "Lipomize",
               },
               {
-                nombre: "Euxyl™ k 830",
+                nombre: "euxyl™ k 830",
                 INCI: "Ethylhexylglycerin (and) Phenylpropanol",
                 uso: "0.50",
                 fabricante: "Ashland",
@@ -426,7 +426,7 @@ export class FormulacionService {
                 fabricante: "",
               },
               {
-                nombre: "Euxyl™ k 900",
+                nombre: "euxyl™ k 900",
                 INCI: "Benzyl Alcohol/ Ethylhexylglycerin",
                 uso: "1.00",
                 fabricante: "Ashland",
@@ -481,11 +481,11 @@ export class FormulacionService {
               {
                 nombre: "Schercemol™ 318 Ester",
                 INCI: "Isostearyl Isostearate",
-                uso: "3.0",
+                uso: "3.00",
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Schercemol™ DISM Ester,",
+                nombre: "Schercemol™ DISM Ester",
                 INCI: "Diisostearyl Malate",
                 uso: "2.00",
                 fabricante: "Lubrizol",
@@ -508,7 +508,7 @@ export class FormulacionService {
                 fabricante: "Stantfold",
               },
               {
-                nombre: "SilSense™ Bio 5 emollient,",
+                nombre: "SilSense™ Bio 5 emollient",
                 INCI: "C9-12 Alkane",
                 uso: "2.00",
                 fabricante: "Lubrizol",
@@ -592,15 +592,15 @@ export class FormulacionService {
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "VEGEQUAT®",
+                nombre: "Vegequat® ",
                 INCI: "Cocodimonium Hydroxypropyl Hydrolyzed Wheat Protein",
-                uso: "2.5",
+                uso: "2.50",
                 fabricante: "Sinerga",
               },
               {
                 nombre: "Lauroat® EC",
                 INCI: "Sodium Lauroyl Oat Amino Acids",
-                uso: "",
+                uso: "30.00",
                 fabricante: "Sinerga",
               },
               {
@@ -651,7 +651,7 @@ export class FormulacionService {
                 fabricante: "Lubrizol",
               },
               {
-                nombre: "Euxyl™ k 900",
+                nombre: "euxyl™ k 900",
                 INCI: "Benzyl Alcohol/ Ethylhexylglycerin",
                 uso: "0.50",
                 fabricante: "Ashland",
@@ -800,14 +800,14 @@ export class FormulacionService {
               },
               {
                 nombre: "Activonol-3",
-                INCI: "Disodium EDTA",
+                INCI: "Propanediol",
                 uso: "0.50",
-                fabricante: "",
+                fabricante: "Activon",
               },
               {
                 nombre: "EDTA",
                 INCI: "Disodium EDTA",
-                uso: "0.5",
+                uso: "0.50",
                 fabricante: "",
               }
             ],
